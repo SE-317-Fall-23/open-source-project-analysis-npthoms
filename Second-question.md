@@ -1,8 +1,8 @@
-## Project Selected: <Enter project name>
+## Project Selected: <TodoMVC>
 
 ## I. Introduction
 - Provide an overview of the analysis, indicating the goal of describing the types of testing used in the selected open-source project and explaining the rationale behind their choice.
-
+- I am choosing to answer question 2
 ## II. Types of Testing in the Project
 ### A. Unit Testing
 - Describe the role and purpose of unit testing in the project.
@@ -32,9 +32,13 @@
 ### A. Static Test Data
 - Explain if and how static test data is used in the project.
 - Provide examples of scenarios where static test data is employed.
+- In the project I looked at there was only dynamic testing. Initialization code was run before each of the tests. 
 ### B. Dynamic Test Data
 - Explain if and how dynamic test data is used in the project.
 - Provide examples of scenarios where dynamic test data is generated.
+- The tests in this project are dynamic focused. Before each test initialization code is ran to set up the page and different variables
+Then the tests systematically test different parts of the system. For example one of the first tests is to make sure certain aspects
+of the page are appearing visually after initialization. Another example is running code to add items to a todo list then verifiying that they were added.
 
 ## 3. Test Doubles
 - Identify and explain the use of test doubles (e.g., mocks, stubs, fakes) in the project.
